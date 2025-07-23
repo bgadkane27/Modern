@@ -1,12 +1,7 @@
 const About = () => {
   return (
     <section
-      className="relative min-h-screen flex items-center justify-center bg-cover bg-center"
-    //   style={{
-    //     backgroundImage: `url('/imgs/main(10).avif')`,
-    //   }}
-    >
-      {/* Optional Overlay */}
+      className="relative min-h-screen flex items-center justify-center">
       <div className="absolute inset-0 bg-black/95 z-0" />
       <video
         autoPlay
@@ -29,7 +24,7 @@ const About = () => {
           Building 
           <span className="text-blue-400"> Trust</span>, <br />
         </h2>
-        <p className="text-xl font-bold">Making a real difference.</p>
+        <p className="text-2xl font-bold">Making a real difference.</p>
       </div>
     </section>
   );
