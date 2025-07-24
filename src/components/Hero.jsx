@@ -24,6 +24,8 @@ const Hero = () => {
       x: 50,
       opacity: 0,
       stagger: 0.02,
+      rotationX: -180,
+      ease: "sine",
     })
       .from(lines1.lines, {
         x: 100,

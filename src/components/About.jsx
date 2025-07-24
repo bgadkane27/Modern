@@ -24,7 +24,7 @@ const About = () => {
           Building 
           <span className="text-blue-400"> Trust</span>, <br />
         </h2>
-        <p className="text-2xl font-bold">Making a real difference.</p>
+        <p className="text-2xl font-bold">To Make a real difference.</p>
       </div>
     </section>
   );
