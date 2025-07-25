@@ -1,30 +1,17 @@
 const About = () => {
   return (
-    <section
-      className="relative min-h-screen flex items-center justify-center">
-      <div className="absolute inset-0 bg-black/95 z-0" />
-      <video
-        autoPlay
-        loop
-        muted
-        playsInline
-        className="absolute top-0 left-0 w-full h-full object-cover z-[-1]"
-      >
-        <source src="/videos/hero-bg2.mp4" type="video/mp4" />
-        Browser does not support the video tag.
-      </video>
-      <div className="relative z-10 text-center pr-4">
-        <h2 className="text-4xl sm:text-9xl font-bold mb-12">
-          Crafting 
-          <span className="text-blue-400"> Quality</span>, <br />
-          Ensuring 
-          <span className="text-blue-400"> Excellence</span>, <br /> 
-          Take 
-          <span className="text-blue-400"> Challenges</span>, <br/>
-          Building 
-          <span className="text-blue-400"> Trust</span>, <br />
-        </h2>
-        <p className="text-2xl font-bold">To Make a real difference.</p>
+    <section id="about" className="relative overflow-hidden min-h-screen">
+      <div
+        className="absolute inset-0"
+        style={{
+          backgroundImage:
+            "radial-gradient(circle at 1px 1px, rgba(255,255,255,0.3) 1px, transparent 0)",
+          backgroundSize: "60px 60px",
+        }}
+      ></div>
+      <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-gradient-to-br from-cyan-500/30 to-blue-600/20 rounded-full blur-3xl"></div>
+      <div className="absolute bottom-1/4 right-1/4 w-80 h-80 bg-gradient-to-br from-purple-500/30 to-pink-600/20 rounded-full blur-3xl"></div>
+      <div className="absolute top-1/2 right-1/3 w-64 h-64 bg-gradient-to-br from-teal-500/20 to-green-600/10 rounded-full blur-2xl">
       </div>
     </section>
   );
