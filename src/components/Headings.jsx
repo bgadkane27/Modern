@@ -45,7 +45,7 @@ const Headings = () => {
       className="relative min-h-screen flex items-center justify-center overflow-hidden"
     >      
       <div className="absolute inset-0 z-0">
-        <img src="/public/imgs/main (7).jpg" alt="background" className="w-full h-full object-cover" />
+        <img src="/imgs/main (7).jpg" alt="background" className="w-full h-full object-cover" />
       </div>
 
       <div className="relative z-10 flex flex-col text-center pr-4 px-2">
@@ -61,7 +61,7 @@ const Headings = () => {
         <h1 ref={addToRefs} className="text-4xl sm:text-9xl font-bold">
           Building <span className="text-blue-400">Trust</span>,
         </h1>
-        <span className="text-2xl font-bold mt-12 text-blue-400">To Make a real difference.</span>
+        <span className="sm:text-2xl text-lg font-bold mt-12 text-blue-400">To Make a real difference.</span>
       </div>
     </div>
   );

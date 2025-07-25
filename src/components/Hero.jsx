@@ -2,6 +2,7 @@ import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { useRef } from "react";
 import SplitText from "gsap/SplitText";
+import Light from "./Light";
 
 gsap.registerPlugin(SplitText);
 
@@ -41,24 +42,27 @@ const Hero = () => {
 
   return (
     <div className="relative min-h-screen flex flex-col overflow-x-hidden">
-      <div className="absolute inset-0 z-0 bg-black/90" />
-      <video
-        autoPlay
-        loop
-        muted
-        playsInline
-        className="absolute top-0 left-0 w-full h-full object-cover z-[-1]"
-      >
-        <source src="/videos/hero-bg.mp4" type="video/mp4" />
-        Browser does not support the video tag.
-      </video>
-      <div className="relative w-full min-h-screen overflow-x-hidden">
+      <div className="absolute inset-0 z-0">
+        <Light
+          raysOrigin="top-center"
+          raysColor="#00ffff"
+          raysSpeed={0.5}
+          lightSpread={1}
+          rayLength={5}
+          followMouse={true}
+          mouseInfluence={0.5}
+          noiseAmount={0.1}
+          distortion={0.01}
+        />
+      </div>
+
+      <div className="relative z-10 w-full min-h-screen overflow-x-hidden">
         <div className="container max-w-7xl mx-auto px-4 py-32 flex flex-col">
           <div className="pr-4">
             <h1
               ref={headingRef}
               className="sm:text-6xl text-4xl font-semibold mb-6 max-w-3xl">
-              I am Baburao — A <span className="text-blue-600 font-bold">QA/QC Engineer </span>
+              I am Baburao — A <span className="text-blue-500 font-bold">QA/QC Engineer </span>
               ensuring quality through effective test strategies.
             </h1>
             <div className="w-full flex justify-end">
