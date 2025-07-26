@@ -1,4 +1,5 @@
 import About from "./components/About"
+import Contact from "./components/Contact"
 import Headings from "./components/Headings"
 import Hero from "./components/Hero"
 
@@ -8,6 +9,7 @@ function App() {
       <Hero />
       <Headings />
       <About />
+      <Contact />
     </main>
   )
 }
