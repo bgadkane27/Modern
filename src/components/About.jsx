@@ -23,12 +23,13 @@ const About = () => {
       scrollTrigger: {
         trigger: nameRef.current,
         start: "top 60%",
-        end: "top 20%",
+        // end: "top 20%",
         scrub: true,
         toggleActions: "play reverse play reverse",
       },
+      y: 100,
       opacity: 0,
-      y: 50,
+      x: 100,
       stagger: 0.05,
       duration: 1,
       ease: "expo.out",
@@ -166,20 +167,20 @@ const About = () => {
           src="/videos/anka.webm"
         />
         <div
-        className="absolute inset-0"
-        style={{
-          backgroundImage:
-            "radial-gradient(circle at 1px 1px, rgba(255,255,255,0.3) 1px, transparent 0)",
-          backgroundSize: "50px 50px",
-        }}
-      ></div>
-      <div
-        className="absolute inset-0 opacity-10"
-        style={{
-          backgroundImage: `linear-gradient(rgba(255,255,255,0.5) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.5) 1px, transparent 1px)`,
-          backgroundSize: "50px 50px",
-        }}
-      ></div>
+          className="absolute inset-0"
+          style={{
+            backgroundImage:
+              "radial-gradient(circle at 1px 1px, rgba(255,255,255,0.3) 1px, transparent 0)",
+            backgroundSize: "50px 50px",
+          }}
+        ></div>
+        <div
+          className="absolute inset-0 opacity-10"
+          style={{
+            backgroundImage: `linear-gradient(rgba(255,255,255,0.5) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.5) 1px, transparent 1px)`,
+            backgroundSize: "50px 50px",
+          }}
+        ></div>
       </div>
 
     </section>
