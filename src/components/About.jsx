@@ -83,14 +83,14 @@ const About = () => {
   return (
     <section id="about" className="relative overflow-hidden">
       {/* Background Grid and Glows */}
-      <div
+      {/* <div
         className="absolute inset-0"
         style={{
           backgroundImage:
             "radial-gradient(circle at 1px 1px, rgba(255,255,255,0.3) 1px, transparent 0)",
           backgroundSize: "50px 50px",
         }}
-      ></div>
+      ></div> */}
       <div
         className="absolute inset-0 opacity-10"
         style={{
@@ -104,7 +104,7 @@ const About = () => {
       <div className="absolute top-1/2 right-1/3 w-64 h-64 bg-gradient-to-br from-teal-500/20 to-green-600/10 rounded-full blur-2xl"></div>
       <div className="absolute bottom-1 right-1 w-80 h-80 bg-gradient-to-br from-purple-500/30 to-pink-600/20 rounded-full blur-3xl"></div>
       <div className="absolute bottom-1 left-1/4 w-96 h-96 bg-gradient-to-br from-cyan-600/10 to-blue-600/20 rounded-full blur-3xl"></div>
-      <div className="absolute inset-0 bg-gradient-to-b from-black/60 to-violet-100/10 pointer-events-none" />
+      {/* <div className="absolute inset-0 bg-gradient-to-b from-black/10 to-violet-100/10 pointer-events-none" /> */}
 
       {/* Hero Section */}
       <div
@@ -118,7 +118,7 @@ const About = () => {
             ref={nameRef}
             className="text-6xl md:text-9xl font-bold tracking-wide mb-4"
           >
-            Divyansh Adkane
+            Baburao Adkane
           </h1>
           <p
             ref={quoteRef}
