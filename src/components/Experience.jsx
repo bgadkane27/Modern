@@ -50,7 +50,7 @@ const Experience = () => {
 					backgroundSize: "50px 50px",
 				}}
 			></div>
-			<div className="absolute inset-0 bg-gradient-to-b from-violet-600/10 to-black/30 pointer-events-none" />
+			<div className="absolute inset-0 bg-gradient-to-b from-violet-600/10 to-black/50 pointer-events-none" />
 
 			<div className="w-full max-w-7xl mx-auto mb-8 px-4">
 				<h1 className="
