@@ -50,7 +50,7 @@ const Experience = () => {
 					backgroundSize: "50px 50px",
 				}}
 			></div>
-			<div className="absolute inset-0 bg-gradient-to-b from-violet-600/10 to-black/50 pointer-events-none" />
+			{/* <div className="absolute inset-0 bg-gradient-to-b from-violet-600/10 to-black/50 pointer-events-none" /> */}
 
 			<div className="w-full max-w-7xl mx-auto mb-8 px-4">
 				<h1 className="
@@ -61,7 +61,7 @@ const Experience = () => {
 					Experience
 				</h1>
 				<p className="text-2xl mb-2">
-					It's not a just about existence. Its about <strong className="text-[#747bff] font-bold">impact and cultivating</strong> a legacy that transcends time.
+					It's not a just about existence. Its about <strong className="text-[#8C39D9] font-bold">impact and cultivating</strong> a legacy that transcends time.
 				</p>
 			</div>
 

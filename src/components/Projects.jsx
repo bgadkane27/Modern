@@ -133,7 +133,7 @@ export default function ProjectCarousel() {
   }, []);
 
   return (
-    <section id="project" className="min-h-screen py-24 flex flex-col items-center relative overflow-hidden bg-black/50">
+    <section id="project" className="min-h-screen py-24 flex flex-col items-center relative overflow-hidden">
       <div
         className="absolute inset-0 opacity-10"
         style={{
@@ -155,7 +155,7 @@ export default function ProjectCarousel() {
           Projects
         </h1>
         <p className="text-2xl mb-2">
-          Projects Aren't Just Work — It Reflects <strong className="text-[#747bff] font-bold">Passion, quality and reliability</strong>.
+          Projects Aren't Just Work — It Reflects <strong className="text-[#8C39D9] font-bold">Passion, quality and reliability</strong>.
         </p>
       </div>
       <div className="relative w-full max-w-7xl mx-auto px-4">
@@ -179,7 +179,7 @@ export default function ProjectCarousel() {
                 rel="noopener noreferrer"
                 className="absolute top-2 right-4 transition-all duration-300 ease-in group-hover:scale-125"
               >
-                <Link2 size={24} className="text-blue-500" />
+                <Link2 size={24} className="text-[#8C39D9]" />
               </a>
 
               {/* Sliding content box */}
