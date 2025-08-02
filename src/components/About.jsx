@@ -23,7 +23,7 @@ const About = () => {
       scrollTrigger: {
         trigger: nameRef.current,
         start: "top 60%",
-        // end: "top 20%",
+        end: "top 20%",
         scrub: true,
         toggleActions: "play reverse play reverse",
       },
@@ -53,8 +53,8 @@ const About = () => {
     gsap.from(taglineSplit.chars, {
       scrollTrigger: {
         trigger: taglineRef.current,
-        start: "top 90%",
-        end: "top 60%",
+        start: "top 60%",
+        end: "top 20%",
         scrub: true,
         toggleActions: "play reverse play reverse",
       },
