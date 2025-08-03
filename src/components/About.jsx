@@ -53,8 +53,8 @@ const About = () => {
     gsap.from(taglineSplit.chars, {
       scrollTrigger: {
         trigger: taglineRef.current,
-        start: "top 60%",
-        end: "top 20%",
+        start: "top 95%",
+        end: "top 80%",
         scrub: true,
         toggleActions: "play reverse play reverse",
       },
@@ -111,7 +111,7 @@ const About = () => {
         ref={containerRef}
         className="relative z-10 text-center w-full min-h-screen max-w-7xl mx-auto flex flex-col justify-between items-center px-6 py-24 sm:px-8 md:px-16"
       >
-        <p className="text-xs tracking-widest uppercase text-blue-400">About Me</p>
+        <p className="text-xs tracking-widest uppercase">About Me</p>
 
         <div className="flex flex-col">
           <h1
