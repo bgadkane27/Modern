@@ -199,7 +199,7 @@ export const contact = [
     sublabel: "	Message me",
     icon: MessageCircle,    
     link: "https://wa.me/919673929867?text=Hi%20Baburao%2C%20I%20found%20you%20via%20your%20portfolio!",
-    image: "/imgs/main (1).jpg",
+    image: "/imgs/whatsapp.png",
   },
   {
     id: 2,
@@ -208,7 +208,7 @@ export const contact = [
     sublabel: "Call me",
     icon: Phone,
     link: "tel:+919673929867",
-    image: "/imgs/main (2).jpg",
+    image: "/imgs/phone.jpg",
   },
   {
     id: 3,
@@ -217,7 +217,7 @@ export const contact = [
     sublabel: "Send me an email",
     icon: Mail,
     link: "mailto:bgadkane@gmail.com",
-    image: "/imgs/main (3).jpg",
+    image: "/imgs/email.jpg",
   },
   {
     id: 4,
@@ -226,7 +226,7 @@ export const contact = [
     sublabel: "Connect me",
     icon: Linkedin,
     link: "https://www.linkedin.com/in/baburao-adkane-443476250/",
-    image: "/imgs/main (4).jpg",
+    image: "/imgs/linkedIn.jpg",
   },
   {
     id: 5,
@@ -235,6 +235,6 @@ export const contact = [
     sublabel: "Visit",
     icon: Github,
     link: "https://github.com/bgadkane27",
-    image: "/imgs/main (5).jpg",
+    image: "/imgs/github.png",
   },
 ];
