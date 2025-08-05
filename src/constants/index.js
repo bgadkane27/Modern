@@ -9,6 +9,11 @@ import {
   RefreshCw,
   Smile,
   Target,
+  Phone,
+  Mail,
+  Linkedin,
+  Github,
+  MessageCircle,
 } from "lucide-react";
 
 export const aboutCards = [
@@ -183,5 +188,53 @@ export const projects = [
     description: "Loan Origination System streamlines the end-to-end loan process with a task-based workflow and real-time alerts. It ensures faster and more efficient loan approvals.",
     tags: ["customer", "loan application", "repayment", "emi"],
     link: "https://www.ltfinance.com/personal-loan",
+  },
+];
+
+export const contact = [
+  {
+    id: 1,
+    label: "WhatsApp",
+    value: "+91 9673929867",
+    sublabel: "	Message me",
+    icon: MessageCircle,    
+    link: "https://wa.me/919673929867?text=Hi%20Baburao%2C%20I%20found%20you%20via%20your%20portfolio!",
+    image: "/imgs/main (1).jpg",
+  },
+  {
+    id: 2,
+    label: "Phone",
+    value: "+91 9673929867",
+    sublabel: "Call me",
+    icon: Phone,
+    link: "tel:+919673929867",
+    image: "/imgs/main (2).jpg",
+  },
+  {
+    id: 3,
+    label: "Email",
+    value: "bgadkane@gmail.com",
+    sublabel: "Send me an email",
+    icon: Mail,
+    link: "mailto:bgadkane@gmail.com",
+    image: "/imgs/main (3).jpg",
+  },
+  {
+    id: 4,
+    label: "LinkedIn",
+    value: "linkedin.com/bgadkane",
+    sublabel: "Connect me",
+    icon: Linkedin,
+    link: "https://www.linkedin.com/in/baburao-adkane-443476250/",
+    image: "/imgs/main (4).jpg",
+  },
+  {
+    id: 5,
+    label: "GitHub",
+    value: "github.com/bgadkane",
+    sublabel: "Visit",
+    icon: Github,
+    link: "https://github.com/bgadkane27",
+    image: "/imgs/main (5).jpg",
   },
 ];

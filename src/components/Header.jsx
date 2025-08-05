@@ -105,9 +105,10 @@ const Header = () => {
 
             <div className="flex flex-col justify-center h-full px-10 md:px-32">
               {[
-                { id: 'about', text: 'ABOUT', number: '01' }, 
-                { id: 'project', text: 'WORKS', number: '02' },                
-                { id: 'contact', text: 'CONTACT', number: '03' },
+                { id: 'hero', text: 'HOME', number: '01' },
+                { id: 'about', text: 'ABOUT', number: '02' }, 
+                { id: 'project', text: 'WORKS', number: '03' },                
+                { id: 'contact', text: 'CONTACT', number: '04' },
               ].map((item, index) => (
                 <div
                   key={index}
