@@ -41,8 +41,8 @@ const Experience = () => {
 
 	return (
 		<section id="experience" aria-labelledby="exp-heading" className='relative w-full min-h-screen px-4 pt-20'>
-			<img src="/imgs/slider-left-leaf.webp" alt="left-leaf" id="left-leaf" />
-			<img src="/imgs/slider-right-leaf.webp" alt="right-leaf" id="right-leaf" />
+			{/* <img src="/imgs/slider-left-leaf.webp" alt="left-leaf" id="left-leaf" />
+			<img src="/imgs/slider-right-leaf.webp" alt="right-leaf" id="right-leaf" /> */}
 			<div
 				className="absolute inset-0 opacity-10"
 				style={{
