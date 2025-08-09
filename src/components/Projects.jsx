@@ -147,14 +147,14 @@ export default function ProjectCarousel() {
       <div className="absolute bottom-1 right-1 w-80 h-80 bg-gradient-to-br from-purple-500/30 to-pink-600/20 rounded-full blur-3xl"></div>
       <div className="absolute bottom-1 left-1/4 w-96 h-96 bg-gradient-to-br from-cyan-600/10 to-blue-600/20 rounded-full blur-3xl"></div>
       <div className="w-full max-w-7xl mx-auto mb-8 px-4">
-        <h1 className="
-                 text-xl sm:text-4xl font-bold max-w-fit mb-4
-                 bg-gradient-to-r from-cyan-500 via-purple-500 to-pink-500 
-                 text-transparent bg-clip-text font-serif
-                 ">
-          Projects
-        </h1>
-        <p className="text-2xl mb-2">
+        <div className="flex flex-col md:flex-row justify-center items-center text-sm pb-4">
+          <div className="flex gap-4 mt-4 md:mt-0">
+            <div className="border font-bold px-4 py-1 rounded-full text-xs">
+              PROJECTS
+            </div>
+          </div>
+        </div>
+        <p className="text-2xl mb-2 text-center">
           Projects Aren't Just Work — It Reflects <strong className="text-[#8C39D9] font-bold">Passion, quality and reliability</strong>.
         </p>
       </div>

@@ -41,8 +41,6 @@ const Experience = () => {
 
 	return (
 		<section id="experience" aria-labelledby="exp-heading" className='relative w-full min-h-screen px-4 pt-20'>
-			{/* <img src="/imgs/slider-left-leaf.webp" alt="left-leaf" id="left-leaf" />
-			<img src="/imgs/slider-right-leaf.webp" alt="right-leaf" id="right-leaf" /> */}
 			<div
 				className="absolute inset-0 opacity-10"
 				style={{
@@ -52,15 +50,15 @@ const Experience = () => {
 			></div>
 			{/* <div className="absolute inset-0 bg-gradient-to-b from-violet-600/10 to-black/50 pointer-events-none" /> */}
 
-			<div className="w-full max-w-7xl mx-auto mb-8 px-4">
-				<h1 className="
-                text-xl sm:text-4xl font-bold max-w-fit pb-6
-                bg-gradient-to-r from-cyan-500 via-purple-500 to-pink-500 
-                text-transparent bg-clip-text font-serif
-                ">
-					Experience
-				</h1>
-				<p className="text-2xl mb-2">
+			<div className="w-full max-w-7xl mx-auto mb-16 px-4">
+				<div className="flex flex-col md:flex-row justify-center items-center text-sm pb-4">
+					<div className="flex gap-4 mt-4 md:mt-0">
+						<div className="border font-bold px-4 py-1 rounded-full text-xs">
+							EXPERIENCE
+						</div>
+					</div>
+				</div>
+				<p className="text-2xl mb-2 text-center">
 					It's not a just about existence. Its about <strong className="text-[#8C39D9] font-bold">impact and cultivating</strong> a legacy that transcends time.
 				</p>
 			</div>

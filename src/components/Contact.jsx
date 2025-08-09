@@ -3,12 +3,19 @@ import { contact } from "../constants";
 const Contact = () => {
 
     return (
-        <section id="contact" className="px-6 md:px-24 py-20 min-h-screen">
-            <div className="flex flex-col md:flex-row justify-center items-center text-sm border-b border-white/20 pb-4">
+        <section id="contact" className="px-6 md:px-24 py-20 min-h-screen relative Z-50">
+            <div
+                className="absolute inset-0 opacity-10"
+                style={{
+                    backgroundImage: `linear-gradient(rgba(255,255,255,0.5) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.5) 1px, transparent 1px)`,
+                    backgroundSize: "50px 50px",
+                }}
+            ></div>
+            <div className="flex flex-col md:flex-row justify-center items-center text-sm pb-4">
                 <div className="flex gap-4 mt-4 md:mt-0">
-                    <button className="border font-bold px-4 py-1 rounded-full text-xs">
-                       CONTACT ME
-                    </button>
+                    <div className="border font-bold px-4 py-1 rounded-full text-xs">
+                        CONTACT ME
+                    </div>
                 </div>
             </div>
 
@@ -16,7 +23,7 @@ const Contact = () => {
                 Contact
             </h2>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 text-center">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 text-center relative Z-10">
                 {contact.map((item) => {
                     const Icon = item.icon;
 
@@ -25,7 +32,7 @@ const Contact = () => {
                             <div className="flex justify-center">
                                 <Icon className="mb-3 text-[#8C39D9]" size={24} />
                             </div>
-                            <h3 className="text-white font-semibold">{item.label}</h3>                           
+                            <h3 className="text-white font-semibold">{item.label}</h3>
                             <a
                                 href={item.link}
                                 target="_blank"

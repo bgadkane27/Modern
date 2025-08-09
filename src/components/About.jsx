@@ -107,12 +107,18 @@ const About = () => {
       {/* <div className="absolute inset-0 bg-gradient-to-b from-black/10 to-violet-100/10 pointer-events-none" /> */}
 
       {/* Hero Section */}
+
       <div
         ref={containerRef}
         className="relative z-10 text-center w-full min-h-screen max-w-7xl mx-auto flex flex-col justify-between items-center px-6 py-24 sm:px-8 md:px-16"
       >
-        <p className="text-xs tracking-widest uppercase">About Me</p>
-
+        <div className="flex flex-col md:flex-row justify-center items-center text-sm pb-4">
+          <div className="flex gap-4 mt-4 md:mt-0">
+            <div className="border font-bold px-4 py-1 rounded-full text-xs">
+              ABOUT ME
+            </div>
+          </div>
+        </div>
         <div className="flex flex-col">
           <h1
             ref={nameRef}
