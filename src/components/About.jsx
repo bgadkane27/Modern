@@ -82,7 +82,6 @@ const About = () => {
 
   return (
     <section id="about" className="relative overflow-hidden">
-      {/* Background Grid and Glows */}
       <div
         className="absolute inset-0"
         style={{
@@ -104,9 +103,6 @@ const About = () => {
       <div className="absolute top-1/2 right-1/3 w-64 h-64 bg-gradient-to-br from-teal-500/20 to-green-600/10 rounded-full blur-2xl"></div>
       <div className="absolute bottom-1 right-1 w-80 h-80 bg-gradient-to-br from-purple-500/30 to-pink-600/20 rounded-full blur-3xl"></div>
       <div className="absolute bottom-1 left-1/4 w-96 h-96 bg-gradient-to-br from-cyan-600/10 to-blue-600/20 rounded-full blur-3xl"></div>
-      {/* <div className="absolute inset-0 bg-gradient-to-b from-black/10 to-violet-100/10 pointer-events-none" /> */}
-
-      {/* Hero Section */}
 
       <div
         ref={containerRef}
@@ -142,7 +138,6 @@ const About = () => {
         </p>
       </div>
 
-      {/* Grid Section Below the Hero */}
       <div className="relative z-10 max-w-7xl mx-auto px-6 py-16 sm:px-8 md:px-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 sm:gap-12">
           {aboutCards.map((item, index) => {

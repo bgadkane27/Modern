@@ -48,7 +48,6 @@ const Experience = () => {
 					backgroundSize: "50px 50px",
 				}}
 			></div>
-			{/* <div className="absolute inset-0 bg-gradient-to-b from-violet-600/10 to-black/50 pointer-events-none" /> */}
 
 			<div className="w-full max-w-7xl mx-auto mb-16 px-4">
 				<div className="flex flex-col md:flex-row justify-center items-center text-sm pb-4">
