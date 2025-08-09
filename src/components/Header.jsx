@@ -61,8 +61,9 @@ const Header = () => {
               {[
                 { id: 'hero', text: 'HOME', number: '01' },
                 { id: 'about', text: 'ABOUT', number: '02' },
-                { id: 'project', text: 'PROJECTS', number: '03' },
-                { id: 'contact', text: 'CONTACT', number: '04' },
+                { id: 'experience', text: 'EXPERIENCE', number: '03' },
+                { id: 'project', text: 'PROJECTS', number: '04' },
+                { id: 'contact', text: 'CONTACT', number: '05' },
               ].map((item, index) => (
                 <div
                   key={index}
